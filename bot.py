@@ -2,8 +2,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, CallbackContext
 import requests
 import asyncio
-TELEGRAM_BOT_TOKEN = "7033297550:AAFlOvttWqse1k85lwX0IFkfKeXYm7llm9Q"
-API_TOKEN = "cS0VuiPlLH5mt69TEAAgyAWe2CmNrN9G"
+TELEGRAM_BOT_TOKEN = "xxxx"
+API_TOKEN = "xxx"
 HOST_URL = "https://apptanglike.com/api/v1"
 
 def create_order(server_id, post_link, number_seeding):
